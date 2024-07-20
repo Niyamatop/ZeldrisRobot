@@ -32,25 +32,25 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    TOKEN = ""  # Take from @BotFather
+    TOKEN = "7204983300:AAGFwLAEIy8_HdVUSKxD4EIdcAR5bVnHwQo"  # Take from @BotFather
     OWNER_ID = (
-        ""  # If you dont know, run the bot and do /id in your private chat with it
+        "5536168611"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = ""
+    OWNER_USERNAME = "DARKCURSED0"
     API_HASH = None  # for purge stuffs
     API_ID = None
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "sqldbtype://username:pw@hostname:port/db_name"  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
+    SQLALCHEMY_DATABASE_URI = "postgres://avnadmin:AVNS_gwvtPgMcQ7IX0qwaCG9@freedb-mayrice01.i.aivencloud.com:14358/defaultdb?sslmode=require"  # needed for any database modules
+    MESSAGE_DUMP = None # needed to make sure 'save from' messages persist
     REDIS_URL = "redis://something@nothing/anything:10002"  # needed for afk module, get from redislab
     LOAD = []
-    NO_LOAD = []
+    NO_LOAD = ['translation']
     WEBHOOK = False
     URL = None
-    MONGO_URI = ""
+    MONGO_URI = "mongodb+srv://Dark123:Dark123@cluster0.jsapbqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     MONGO_PORT = 27017  # leave it as it is
-    MONGO_DB = "Zeldris"
+    MONGO_DB = "Cluster0"
 
     # OPTIONAL
     DEV_USERS = (
